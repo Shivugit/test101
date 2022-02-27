@@ -1,0 +1,62 @@
+25-Feb-2022 01:48:18.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.75
+25-Feb-2022 01:48:18.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 17 2022 22:07:47 UTC
+25-Feb-2022 01:48:18.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.75.0
+25-Feb-2022 01:48:18.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Feb-2022 01:48:18.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-305.el8.x86_64
+25-Feb-2022 01:48:18.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2022 01:48:18.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.el8_5.x86_64/jre
+25-Feb-2022 01:48:18.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_322-b06
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ec2-user/apache-tomcat-8.5.75
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ec2-user/apache-tomcat-8.5.75
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ec2-user/apache-tomcat-8.5.75/conf/logging.properties
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Feb-2022 01:48:18.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Feb-2022 01:48:18.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ec2-user/apache-tomcat-8.5.75
+25-Feb-2022 01:48:18.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ec2-user/apache-tomcat-8.5.75
+25-Feb-2022 01:48:18.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ec2-user/apache-tomcat-8.5.75/temp
+25-Feb-2022 01:48:18.295 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+25-Feb-2022 01:48:18.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+25-Feb-2022 01:48:18.609 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Feb-2022 01:48:18.631 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1482 ms
+25-Feb-2022 01:48:18.715 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2022 01:48:18.716 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.75]
+25-Feb-2022 01:48:18.771 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ec2-user/apache-tomcat-8.5.75/webapps/Sampleweb.war]
+25-Feb-2022 01:48:19.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ec2-user/apache-tomcat-8.5.75/webapps/Sampleweb.war] has finished in [520] ms
+25-Feb-2022 01:48:19.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ec2-user/apache-tomcat-8.5.75/webapps/calendar.war]
+25-Feb-2022 01:48:19.858 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2022 01:48:19.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ec2-user/apache-tomcat-8.5.75/webapps/calendar.war] has finished in [559] ms
+25-Feb-2022 01:48:19.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ec2-user/apache-tomcat-8.5.75/webapps/SampleWebApp.war]
+25-Feb-2022 01:48:19.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ec2-user/apache-tomcat-8.5.75/webapps/SampleWebApp.war] has finished in [24] ms
+25-Feb-2022 01:48:19.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/ROOT]
+25-Feb-2022 01:48:19.956 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/ROOT] has finished in [23] ms
+25-Feb-2022 01:48:19.956 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/docs]
+25-Feb-2022 01:48:19.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/docs] has finished in [19] ms
+25-Feb-2022 01:48:19.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/examples]
+25-Feb-2022 01:48:20.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/examples] has finished in [587] ms
+25-Feb-2022 01:48:20.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/host-manager]
+25-Feb-2022 01:48:20.581 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/host-manager] has finished in [19] ms
+25-Feb-2022 01:48:20.581 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/manager]
+25-Feb-2022 01:48:20.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.75/webapps/manager] has finished in [96] ms
+25-Feb-2022 01:48:20.695 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+25-Feb-2022 01:48:20.776 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2144 ms
+25-Feb-2022 02:24:51.301 INFO [http-nio-8090-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xb10x010x000x000xad0x030x030xbcb0xb90xa60x9c0xd0VzH0xb30xf3[F0xe90x020x1dl80xc50xe6EA-0xa10xf90xc1M0x940xe80xf40x8c0xb10x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00j3t0x000x000x000x000x000x130x000x110x000x000x0e52.207.133.2520x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x100x000x0e0x040x010x040x030x020x010x020x030x040x010x050x010x060x010xff0x010x000x010x000x000x100x000x170x000x150x02h20x08http/1.10x08spdy/3.1...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:513)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:847)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1680)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+25-Feb-2022 03:23:42.517 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+25-Feb-2022 03:23:42.537 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2022 03:23:42.681 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+25-Feb-2022 03:23:42.686 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
